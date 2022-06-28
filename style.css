@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
 .heading {
     text-align: center;
     padding: 30px;
@@ -13,7 +19,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .borderA {
@@ -63,20 +69,20 @@
 
 @media screen and (max-width:480px) {
     .borderA {
-        padding: 20px 130px 20px 130px;
+        padding: 20px 120px 20px 120px;
     }
     .borderB {
-        display: none;
-        padding: 16px 117px 25px 172px;
+        /* display: none; */
+        padding: 20px 120px 20px 120px;
     }
     .borderC {
-        padding: 60px 125px 60px 125px;
+        padding: 60px 120px 60px 120px;
     }
     .borderD {
-        padding: 20px 130px 20px 130px;
+        padding: 20px 120px 20px 120px;
     }
     .borderE {
-        padding: 20px 130px 20px 130px;
+        padding: 20px 120px 20px 120px;
     }
 }
 
